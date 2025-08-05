@@ -1,7 +1,7 @@
 import { ComponentPropsWithoutRef } from 'react';
 
 interface InputProps extends ComponentPropsWithoutRef<'input'> {
-  label: string;
+  label?: string;
 }
 
 export const Input = ({ label, ...props }: InputProps) => (
